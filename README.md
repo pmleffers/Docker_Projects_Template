@@ -16,6 +16,11 @@ _Once the modification to reqiurements.py is complete, run the the **"docker bui
 
 _Once the container and images have been built the running the command above will start the container and launch a jupyter notebook instance inside the container. Copy the token created from jupyter notebook and navigate to "localhost:8888" in your browser of choice and enter the token information into the login page. Once here you can start or continue working on your projects._
 
+Explanations:
++ "data" folder - This is where data you want to use should be stored.
++ "projecct_files" folder - This is a folder linked to the location "/src/project_files" within the container which is the default working location for jupyter notebooks. 
+ 
+
 
 
 
