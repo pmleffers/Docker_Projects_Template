@@ -1,1 +1,0 @@
-print('This file is used to clean and prepare the data to be used.')
