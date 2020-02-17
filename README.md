@@ -23,7 +23,7 @@ Explanations:
 + "**project_files**" folder - This is a folder linked to the location "**/src/project_files**" within the container which is the default working location for jupyter notebooks. 
 + **module.py** - Executing this file in python should include all the data cleaning procedures needed before starting the project. The docker build command should execute this file so when you finally get to the jupyter notebook launch everything is ready to go.
  
-Note: <new_projects> means any name for the project.
+*Note: <new_projects> means any name for the project.
 
 
 
