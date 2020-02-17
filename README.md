@@ -4,7 +4,7 @@ This is a repository space for a template docker setup that can be built to run 
 
 **Step 1) git clone https://github.com/pmleffers/Docker_Projects_Template**
 
-**Step 2) Navigate to ./projects inside the cloned repository.**
+**Step 2) Navigate to ~./projects inside the cloned repository.**
 
 **Step 3) Modify requirements.py**
 
