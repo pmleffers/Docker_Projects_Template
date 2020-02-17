@@ -18,7 +18,7 @@ _Once the container and images have been built the running the command above wil
 
 Explanations:
 + "**data**" folder - This is where data you want to use should be stored.
-+ "**project_files**" folder - This is a folder linked to the location "/src/project_files" within the container which is the default working location for jupyter notebooks. 
++ "**project_files**" folder - This is a folder linked to the location "**/src/project_files**" within the container which is the default working location for jupyter notebooks. 
  
 
 
