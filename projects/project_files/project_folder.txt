@@ -1,0 +1,1 @@
+This is the folder where your project files, such as jupyter notebooks go.
