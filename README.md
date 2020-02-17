@@ -8,7 +8,7 @@ This is a repository space for a template docker setup that can be built to run 
 
 **Step 3) Modify requirements.py**
 
-_Add any additional packages you would like to install and have available for the docker container. So for example if you want to make the container designed for Tensorflow, add the Tensorflow installation packagas. Or if you want to make the container designed to run Dask, add dask installation instructions for building the container. Including any additional packages you might require for running the projects beyond simply a jupyter notebook with python._
+_Add any additional packages you would like to install and have available for the docker container. So for example if you want to make the container designed for Tensorflow, add the Tensorflow installation packages. Or if you want to make the container designed to run Dask, add dask installation instructions for building the container. Including any additional packages you might require for running the projects beyond simply a jupyter notebook with python._
 
 **Step 4) docker build -t <new_project> .**
 
