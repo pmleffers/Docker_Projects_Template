@@ -25,10 +25,6 @@ RUN mkdir /root/.keras src/
 COPY . .
 
 RUN pip3 install jupyter requests
-RUN python3 requirements.py
-RUN python3 module.py
-
-#RUN rm /src/data/raw_data.csv
 
 WORKDIR /src/project_files
 
@@ -41,13 +37,17 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 EXPOSE 8888
 EXPOSE 8786
 
+COPY requirements.py /src/project_files/
+RUN python3 requirements.py
+#CMD ["python3","module.py"]
+#RUN rm /src/data/raw_data.csv
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
 
 ##############################
 ####        USAGE         ####
 ##############################
 
-# 1) docker build -t new_project .
-# 2) docker run --rm -it -v ${PWD}/project_files:/src/project_files -p 8888:8888 new_project   
+# 1) docker build -t <new_project> .
+# 2) docker run --rm -it -v ${PWD}/project_files:/src/project_files -p 8888:8888 <new_project>   
 
 
