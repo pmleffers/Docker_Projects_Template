@@ -2,13 +2,13 @@
 
 This is a repository space for a template docker setup that can be built to run Jupyter Notebooks for various projects. Reading through the instructions should help to solidify the idea.
 
-**Step 1) docker clone https://github.com/pmleffers/Docker_Projects_Template**
+**Step 1) docker clone https://github.com/pmleffers/Docker_Projects_Template **
 
 **Step 2) Modify requirements.py **
 
 _Add any additional packages you would like to install and have available for the docker container. So for example if you want to make the container designed for Tensorflow, add the Tensorflow installation packagas. Or if you want to make the container designed to run Dask, add dask installation instructions for building the container. Including any additional packages you might require for running the projects beyond simply a jupyter notebook with python._
 
-**Step 3) docker build -t new_project .**
+**Step 3) docker build -t new_project . **
 
 _Once the modification to reqiurements.py is complete, run the the **"docker build -t <new_project> ."** command._
 
