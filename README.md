@@ -2,7 +2,7 @@
 
 This is a repository space for a template docker setup that can be built to run Jupyter Notebooks for various projects. Reading through the instructions should help to solidify the idea.
 
-**Step 1) docker clone https://github.com/pmleffers/Docker_Projects_Template**
+**Step 1) git clone https://github.com/pmleffers/Docker_Projects_Template**
 
 **Step 2) Modify requirements.py**
 
