@@ -1,6 +1,6 @@
 # start from base
 FROM ubuntu:latest
-
+ENV DEBIAN_FRONTEND=noninteractive 
 
 MAINTAINER PIETER LEFFERS <https://github.com/pmleffers>
 
